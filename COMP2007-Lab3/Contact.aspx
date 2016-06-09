@@ -13,11 +13,11 @@
                     <div class="panel-heading">Contact Info</div>
                     <div class="panel-body">
                         <address>
-                            <strong>Tom Tsiliopoulos</strong><br>
-                            1 Toronto Street<br>
-                            Barrie, ON L9L 9L9<br>
+                            <strong>Himanshu Patel</strong><br>
+                            205-335 Mississaga st w<br>
+                            Orillia, ON L3V 3C2<br>
                             <abbr title="Phone">TEL:</abbr>
-                            (705) 555-6666
+                            (705) 500-2101
                         </address>
                     </div>
                 </div>

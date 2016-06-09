@@ -27,7 +27,7 @@ namespace COMP2007_Lab3
         protected void GetStudents()
         {
             // connect to EF DB
-            using (DefaultConnection db = new DefaultConnection())
+            using (Defaultconnection db = new Defaultconnection())
             {
                 // query the Students table using EF and LINQ
                 var Students = (from allStudents in db.Students

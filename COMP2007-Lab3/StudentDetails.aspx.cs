@@ -26,7 +26,7 @@ namespace COMP2007_Lab3
         protected void SaveButton_Click(object sender, EventArgs e)
         {
             // connect to EF DB
-            using (DefaultConnection db = new DefaultConnection())
+            using (Defaultconnection db = new Defaultconnection())
             {
                 // use the student model to save a new record
                 Student newStudent = new Student();

@@ -12,19 +12,19 @@ namespace COMP2007_Lab3.Models
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
-
-    public partial class DefaultConnection : DbContext
+    
+    public partial class Defaultconnection : DbContext
     {
-        public DefaultConnection()
-            : base("name=DefaultConnection")
+        public Defaultconnection()
+            : base("name=Defaultconnection")
         {
         }
-
+    
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             throw new UnintentionalCodeFirstException();
         }
-
+    
         public virtual DbSet<Course> Courses { get; set; }
         public virtual DbSet<Department> Departments { get; set; }
         public virtual DbSet<Enrollment> Enrollments { get; set; }
